@@ -1,1 +1,0 @@
-# GL-Bajaj_G2G_Shivansh-Upadhyay_69
