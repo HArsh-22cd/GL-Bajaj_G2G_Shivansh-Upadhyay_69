@@ -10,9 +10,10 @@ int main()
     scanf("%d",&c);
     if(a==b&&b==c)
     printf("Triangle is Equilateral");
-    else if(a!=b&&b==c)
-    printf("Triangle is Scalene");
-    else
+    else if(a!=b&&b==c||a!=c&&a==b)
     printf("Triangle is Isosceles");
+    else
+    printf("Triangle is Scalene");
     return 0;
+
 }
